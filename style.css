@@ -1,0 +1,104 @@
+@font-face{
+    font-family: "PermanentMarker-Regular";
+    src: url("PermanentMarker-Regular.ttf");
+    font-family: "KaushanScript-Regular";
+    src: url("KaushanScript-Regular");
+}
+
+body{
+    background-image: url("background.jpg");
+}
+
+h2
+{
+    text-align: center;
+    font-family: "PermanentMarker-Regular";
+    font-size: 40px;
+
+}
+.container
+{
+    border: solid black;
+    width: 550px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+    text-align: center;
+    align-content: center;    
+    padding-top: 40px;
+    margin-left: 30%;
+
+}
+
+#broj1
+{   
+    text-align: center;
+    background-color: white;
+    border-block-color: black;
+    width: 100px;
+    height: 30px; 
+    box-shadow: 2px 3px 0px 0px #8a2a21;
+	border-radius:15px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color: solid black;
+    
+}
+#broj2
+{
+    border-block-color: black;
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 3px 0px 0px #8a2a21;
+	border-radius:15px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color: solid black;
+    
+}
+p
+{
+    border: solid gray;
+    width: 90px;
+    height: 20px;
+    background-color:white;
+    position: absolute;
+    top:50%;
+    left:35%;
+    box-shadow: 2px 3px 0px 0px #8a2a21;
+	border-radius:15px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color: solid black;
+	font-family: "KaushanScript-Regular";
+	font-size:15px;
+	padding:5px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button
+{
+    box-shadow: 2px 3px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:15px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color: solid black;
+	font-family: "KaushanScript-Regular";
+	font-size:15px;
+	padding:5px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
